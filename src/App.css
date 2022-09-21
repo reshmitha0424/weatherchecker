@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -6,6 +7,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +37,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA379KNvgkl3xfzo_Ck1CkTMuzpweL8FwQ2Y9zhH9p&s') ;
+  background-blend-mode: darken;
+  background-size:cover;
+}
+.elements1{
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+p,label{
+  color:lavenderblush;
+
+}
+.cardmain{
+ border-radius: 15px;
+ background-color:rgba(0, 0, 0, 0.6);
+}
+.city{
+  font-size: 50px;
+  margin: 0;
+  font-weight: 100
+}
+.x{
+  margin: 0;
+}
+.temp{
+  margin: 0;
+  font-size: 80px;
+  font-weight: 100;
+}
+.main1{
+  font-size: 40px;
+  font-weight: 200;
+  margin-top:0 !important;
+  
+
+}
+.button{
+  background-color: black;
+  padding: 10px;
+  margin-left: 6px;
+  border-radius: 8px;
+  padding: 11px;
+}
+::placeholder{
+  color: white
+}
+.head{
+  font-weight: 300;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-family:sans-serif;
 }
