@@ -25,7 +25,7 @@ function App() {
     }).catch((err) => {
       console.log("err", err)
 
-    })
+    }) 
   }
   let abc;
   const handleSubmit= e =>{
